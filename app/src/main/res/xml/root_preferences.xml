@@ -1,0 +1,16 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Треки">
+
+        <SwitchPreferenceCompat
+            app:key="ringtone"
+            app:defaultValue="true"
+            app:title="Отображать рингтоны" />
+        <SwitchPreferenceCompat
+            app:key="music"
+            app:defaultValue="true"
+            app:title="Отображать музыку" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
